@@ -33,6 +33,72 @@ body {
     overflow: hidden;
 }
 
+#passwordScreen{
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#0f0f16;
+
+    z-index:99999;
+}
+
+.password-box{
+
+    width:90%;
+    max-width:450px;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.password-box h1{
+    margin-bottom:15px;
+}
+
+.password-box input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin:20px 0;
+
+    border:none;
+
+    border-radius:10px;
+
+    outline:none;
+}
+
+.password-box button{
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+#errorText{
+    color:#ff7b7b;
+    margin-top:15px;
+}
+
 
 /* =========================
    STAR BACKGROUND
