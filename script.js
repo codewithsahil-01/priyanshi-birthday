@@ -322,3 +322,34 @@ document.addEventListener("keydown", event => {
     }
 
 });
+
+function checkPassword(){
+
+    const password =
+        document
+        .getElementById("passwordInput")
+        .value;
+
+    const correctPassword =
+        "MadamJii1309";
+
+    if(password === correctPassword){
+
+        document
+            .getElementById("passwordScreen")
+            .style.display = "none";
+
+        document
+            .getElementById("websiteContent")
+            .style.display = "block";
+
+    }
+
+    else{
+
+        document
+            .getElementById("errorText")
+            .innerText =
+            "Wrong Secret Code 😅";
+    }
+}
