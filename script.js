@@ -330,8 +330,7 @@ function checkPassword(){
         .getElementById("passwordInput")
         .value;
 
-    const correctPassword =
-        "MadamJii1309";
+   const correctPassword = "25July2026";
 
     if(password === correctPassword){
 
