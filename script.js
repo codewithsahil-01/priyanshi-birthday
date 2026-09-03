@@ -324,11 +324,11 @@ document.addEventListener("keydown", event => {
 });
 
 function checkPassword(){
-
-    const password =
-        document
-        .getElementById("passwordInput")
-        .value;
+const password =
+    document
+    .getElementById("passwordInput")
+    .value
+    .trim();
 
    const correctPassword = "25July2026";
 
