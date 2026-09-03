@@ -324,13 +324,14 @@ document.addEventListener("keydown", event => {
 });
 
 function checkPassword(){
-const password =
-    document
-    .getElementById("passwordInput")
-    .value
-    .trim();
 
-   const correctPassword = "25July2026";
+    const password =
+        document
+        .getElementById("passwordInput")
+        .value
+        .trim();
+
+    const correctPassword = "25July2026";
 
     if(password === correctPassword){
 
@@ -343,12 +344,13 @@ const password =
             .style.display = "block";
 
     }
-
     else{
 
         document
             .getElementById("errorText")
             .innerText =
             "Wrong Secret Code 😅";
+
     }
+
 }
